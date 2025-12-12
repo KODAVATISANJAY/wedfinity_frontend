@@ -1,0 +1,36 @@
+{
+  "questions": [
+    {
+      "question": "What sound does a cat make?",
+      "options": [
+        { "text": "Bhau-Bhau", "isCorrect": false },
+        { "text": "Meow-Meow", "isCorrect": true },
+        { "text": "Oink-Oink", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What color are flowers in a fridge?",
+      "options": [
+        { "text": "Slices", "isCorrect": false },
+        { "text": "Ice-cream", "isCorrect": false },
+        { "text": "Petals", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "How many stars are in the sky?",
+      "options": [
+        { "text": "Two", "isCorrect": false },
+        { "text": "Infinite", "isCorrect": true },
+        { "text": "One Hundred", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the capital of France?",
+      "options": [
+        { "text": "Lyon", "isCorrect": false },
+        { "text": "Paris", "isCorrect": true },
+        { "text": "Marseille", "isCorrect": false }
+      ]
+    }
+  ]
+}
