@@ -31,3 +31,173 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+
+/* ===== ANIMATIONS ===== */
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide In from Left */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide In from Right */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide In from Top */
+@keyframes slideInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scale and Fade */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Glow Animation */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(100, 200, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(100, 200, 255, 0.8);
+  }
+}
+
+/* Floating Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Apply animations to elements */
+h1, h2, h3, h4, h5, h6 {
+  animation: slideInTop 0.6s ease-out;
+}
+
+p, span {
+  animation: fadeIn 0.8s ease-out;
+}
+
+button {
+  transition: all 0.3s ease;
+  animation: scaleIn 0.5s ease-out;
+}
+
+button:hover {
+  animation: glow 1.5s infinite;
+  transform: scale(1.05);
+}
+
+section {
+  animation: fadeIn 1s ease-out;
+}
+
+.card, .service-card, .package-card {
+  animation: slideInLeft 0.6s ease-out;
+  transition: all 0.3s ease;
+}
+
+.card:hover, .service-card:hover, .package-card:hover {
+  animation: float 2s infinite;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+  animation: slideInTop 0.8s ease-out;
+}
+
+.testimonial {
+  animation: slideInRight 0.7s ease-out;
+}
+
+.stat-number {
+  animation: pulse 2s infinite;
+}
+
+form input, form textarea, form select {
+  animation: slideInLeft 0.5s ease-out;
+  transition: all 0.3s ease;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+  box-shadow: 0 0 10px rgba(100, 200, 255, 0.5);
+  transform: scale(1.02);
+}
+
+.footer {
+  animation: slideInTop 0.8s ease-out;
+}
+
+.footer a:hover {
+  animation: bounce 0.5s ease-in-out;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
