@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import QuizContainer from './components/QuizContainer';
-import './App.css';
 
 function App() {
   return (
