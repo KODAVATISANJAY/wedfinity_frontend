@@ -1,0 +1,63 @@
+{
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Elegant Weddings",
+      "category": "Planner",
+      "rating": 4.9,
+      "reviews": 127,
+      "price": "₹50,000 - ₹200,000",
+      "image": "https://via.placeholder.com/400x300?text=Elegant+Weddings"
+    },
+    {
+      "id": 2,
+      "name": "Bloom & Bliss Florals",
+      "category": "Flowers",
+      "rating": 4.8,
+      "reviews": 95,
+      "price": "₹30,000 - ₹100,000",
+      "image": "https://via.placeholder.com/400x300?text=Bloom+Bliss"
+    },
+    {
+      "id": 3,
+      "name": "Royal Catering",
+      "category": "Catering",
+      "rating": 4.7,
+      "reviews": 156,
+      "price": "₹500 - ₹2000 per plate",
+      "image": "https://via.placeholder.com/400x300?text=Royal+Catering"
+    },
+    {
+      "id": 4,
+      "name": "Golden Hour Photography",
+      "category": "Photography",
+      "rating": 5.0,
+      "reviews": 203,
+      "price": "₹40,000 - ₹150,000",
+      "image": "https://via.placeholder.com/400x300?text=Golden+Photography"
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "name": "Starter",
+      "price": 150000,
+      "guests": "0-100",
+      "features": ["Venue", "Basic Decor", "Catering"]
+    },
+    {
+      "id": 2,
+      "name": "Premium",
+      "price": 300000,
+      "guests": "100-250",
+      "features": ["Venue", "Luxe Decor", "Full Catering", "Photography"]
+    },
+    {
+      "id": 3,
+      "name": "Royal",
+      "price": 500000,
+      "guests": "250+",
+      "features": ["Venue", "Premium Decor", "Full Catering", "Photography", "Video", "Music"]
+    }
+  ]
+}
