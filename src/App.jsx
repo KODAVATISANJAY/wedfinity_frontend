@@ -1,9 +1,6 @@
 import { useState } from 'react'
-import { Heart, Calendar, Users, Sparkles, ChevronDown, Menu, X } from 'lucide-react'
 
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [activeTab, setActiveTab] = useState('home')
 
   const services = [
     {
